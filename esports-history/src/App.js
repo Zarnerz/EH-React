@@ -1,4 +1,5 @@
 import React, { Component } from "react";
+import Header from "./global/header";
 import "./App.css";
 
 class App extends Component {
@@ -6,7 +7,7 @@ class App extends Component {
     return (
       <div className="App">
         <header className="App-header">
-          <h1>Esports History</h1>
+          <Header />
         </header>
       </div>
     );
