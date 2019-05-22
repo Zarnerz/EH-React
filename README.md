@@ -37,3 +37,7 @@ The purpose of the Esports History website is to provide a centralized resource 
 - Podcasts
 - Blogs
 - Contact
+
+## Wireframes
+
+- Main - https://wireframe.cc/vun30B
