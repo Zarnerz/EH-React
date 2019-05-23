@@ -1,10 +1,15 @@
 import React, { Component } from "react";
+import logo from "../../images/eSports History-logo-edit.png";
 
 class Header extends Component {
   render() {
     return (
       <header>
-        <h1>Esports History</h1>
+        <nav>
+          <a href="#home">
+            <img src={logo} alt="esports history logo" />
+          </a>
+        </nav>
       </header>
     );
   }
