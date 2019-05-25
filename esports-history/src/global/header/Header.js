@@ -37,7 +37,8 @@ const navStyle = {
 };
 
 const navAnchorStyle = {
-  flex: "1"
+  flex: "1",
+  textAlign: "left"
 };
 
 const navUlStyle = {
