@@ -6,6 +6,7 @@ import Background from "./pages/main/background";
 import Podcast from "./pages/main/podcast";
 import Footer from "./global/footer";
 import "./App.css";
+import "react-responsive-carousel/lib/styles/carousel.min.css";
 
 class App extends Component {
   render() {
