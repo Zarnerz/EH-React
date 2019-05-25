@@ -1,4 +1,5 @@
 import React, { Component } from "react";
+import banner from "../../../images/15 - Smash Bros.jpg";
 
 class Background extends Component {
   render() {
@@ -43,10 +44,7 @@ class Background extends Component {
           <p>-Dale 'Zarnerz' Holstein</p>
         </article>
         <aside>
-          <img
-            src="../../../images/15 - Smash Bros.jpg"
-            alt="the smash brothers documentary banner"
-          />
+          <img src={banner} alt="the smash brothers documentary banner" />
         </aside>
       </section>
     );
