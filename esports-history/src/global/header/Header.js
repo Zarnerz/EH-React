@@ -6,10 +6,10 @@ class Header extends Component {
     return (
       <header>
         <nav style={navStyle}>
-          <a style={navFlexStyle} href="#home">
+          <a style={navAnchorStyle} href="#home">
             <img src={logo} alt="esports history logo" style={navLogoStyle} />
           </a>
-          <ul style={navFlexStyle}>
+          <ul style={navUlStyle}>
             <li style={liStyle}>
               <a href="#home">Home</a>
             </li>
@@ -36,8 +36,15 @@ const navStyle = {
   display: "flex"
 };
 
-const navFlexStyle = {
+const navAnchorStyle = {
   flex: "1"
+};
+
+const navUlStyle = {
+  flex: "1",
+  display: "flex",
+  justifyContent: "space-around",
+  alignContent: "center"
 };
 
 const navLogoStyle = {
