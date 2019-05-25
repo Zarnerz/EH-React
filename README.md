@@ -12,7 +12,7 @@ The purpose of the Esports History website is to provide a centralized resource 
 - Express
 - React (using create react app for quick setup)
 - Node
-- CSS (SASS) - CSS Grid & Flexbox
+- CSS - SASS? Grid & Flexbox?
 
 ## Requirements
 
@@ -27,6 +27,7 @@ The purpose of the Esports History website is to provide a centralized resource 
 - User accounts?
 - Single Page or Multipage
 - Database?
+- Use bootstrap for quick prototyping?
 
 ## Content
 
