@@ -10,19 +10,19 @@ class Header extends Component {
             <img src={logo} alt="esports history logo" style={navLogoStyle} />
           </a>
           <ul style={navFlexStyle}>
-            <li>
+            <li style={liStyle}>
               <a href="#home">Home</a>
             </li>
-            <li>
+            <li style={liStyle}>
               <a href="#about">About</a>
             </li>
-            <li>
+            <li style={liStyle}>
               <a href="#background">Background</a>
             </li>
-            <li>
+            <li style={liStyle}>
               <a href="#podcast">Podcast</a>
             </li>
-            <li>
+            <li style={liStyle}>
               <a href="#contact">Contact</a>
             </li>
           </ul>
@@ -46,6 +46,11 @@ const navLogoStyle = {
   marginTop: "7px",
   marginLeft: "30px",
   marginBottom: "5px"
+};
+
+const liStyle = {
+  display: "inline",
+  textDecoration: "none"
 };
 
 export default Header;
