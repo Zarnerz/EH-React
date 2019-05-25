@@ -5,11 +5,11 @@ class Header extends Component {
   render() {
     return (
       <header>
-        <nav>
-          <a href="#home">
-            <img src={logo} alt="esports history logo" />
+        <nav style={navStyle}>
+          <a style={navFlexStyle} href="#home">
+            <img src={logo} alt="esports history logo" style={navLogoStyle} />
           </a>
-          <ul>
+          <ul style={navFlexStyle}>
             <li>
               <a href="#home">Home</a>
             </li>
@@ -31,5 +31,21 @@ class Header extends Component {
     );
   }
 }
+
+const navStyle = {
+  display: "flex"
+};
+
+const navFlexStyle = {
+  flex: "1"
+};
+
+const navLogoStyle = {
+  maxWidth: "175px",
+  height: "auto",
+  marginTop: "7px",
+  marginLeft: "30px",
+  marginBottom: "5px"
+};
 
 export default Header;
