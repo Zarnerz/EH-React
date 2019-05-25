@@ -45,7 +45,7 @@ const navUlStyle = {
   flex: "1",
   display: "flex",
   justifyContent: "space-around",
-  alignContent: "center"
+  alignSelf: "flex-end"
 };
 
 const navLogoStyle = {
