@@ -1,13 +1,13 @@
 import React, { Component } from "react";
 
-export class Cards extends Component {
+class Cards extends Component {
   render() {
     return (
-      <div>
-        {/* IMAGE */}
-        {/* TITLE */}
-        {/* BLURB */}
-      </div>
+      <section>
+        <img src={this.props.image} alt={this.props.alt} />
+        <h1>{this.props.title}</h1>
+        <p>{this.props.blurb}</p>
+      </section>
     );
   }
 }
