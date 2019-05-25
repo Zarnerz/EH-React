@@ -1,3 +1,3 @@
-// Export About
-import About from "./About";
-export default About;
+// Export Background
+import Background from "./Background";
+export default Background;
