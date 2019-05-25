@@ -2,6 +2,7 @@ import React, { Component } from "react";
 import Header from "./global/header";
 import About from "./pages/main/about";
 import Background from "./pages/main/background";
+import Podcast from "./pages/main/podcast";
 import Footer from "./global/footer";
 import "./App.css";
 
@@ -12,6 +13,7 @@ class App extends Component {
         <Header />
         <About />
         <Background />
+        <Podcast />
         <Footer />
       </div>
     );

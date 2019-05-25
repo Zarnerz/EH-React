@@ -1,8 +1,8 @@
 import React, { Component } from "react";
 import Card from "../../../global/cards";
-import logo from "../../../images/eSports History-logo-edit";
-import finalBossImage from "../../../images/13 - MLG FB MONEY";
-import twinGalaxiesImage from "../../../images/27 - Twin Galaxies";
+import logo from "../../../images/eSports History-logo-edit.png";
+import finalBossImage from "../../../images/13 - MLG FB MONEY.jpg";
+import twinGalaxiesImage from "../../../images/27 - Twin Galaxies.jpg";
 
 class Podcast extends Component {
   render() {
