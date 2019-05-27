@@ -4,9 +4,9 @@ import banner from "../../../images/15 - Smash Bros.jpg";
 class Background extends Component {
   render() {
     return (
-      <section>
-        <article>
-          <h1>Background</h1>
+      <section style={sectionStyle}>
+        <h1 style={h1Style}>Background</h1>
+        <article style={articleStyle}>
           <p>
             I began my journey in esports shortly after the release of Halo 3
             with my introduction to MLG and Gamebattles. Up until November 2007
@@ -43,12 +43,25 @@ class Background extends Component {
           </p>
           <p>-Dale 'Zarnerz' Holstein</p>
         </article>
-        <aside>
+        <aside style={articleStyle}>
           <img src={banner} alt="the smash brothers documentary banner" />
         </aside>
       </section>
     );
   }
 }
+
+const sectionStyle = {
+  display: "flex",
+  flexWrap: "wrap"
+};
+
+const articleStyle = {
+  flex: "1"
+};
+
+const h1Style = {
+  flexBasis: "100%"
+};
 
 export default Background;
