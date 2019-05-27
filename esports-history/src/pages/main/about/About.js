@@ -3,9 +3,9 @@ import React, { Component } from "react";
 class About extends Component {
   render() {
     return (
-      <section>
-        <h1>Welcome to Esports History</h1>
-        <article>
+      <section style={sectionStyle}>
+        <h1 style={h1Style}>Welcome to Esports History</h1>
+        <article style={articleStyle}>
           <h1>Our Mission</h1>
           <p>
             The mission of Esports History is to create a centralized place for
@@ -13,7 +13,7 @@ class About extends Component {
             this history as possible and bring it to fans both new and old.
           </p>
         </article>
-        <article>
+        <article style={articleStyle}>
           <h1>Our Story</h1>
           <p>
             In 2019 Esports history was born after years of toying around with
@@ -29,5 +29,18 @@ class About extends Component {
     );
   }
 }
+
+const sectionStyle = {
+  display: "flex",
+  flexWrap: "wrap"
+};
+
+const articleStyle = {
+  flex: "1"
+};
+
+const h1Style = {
+  flexBasis: "100%"
+};
 
 export default About;
