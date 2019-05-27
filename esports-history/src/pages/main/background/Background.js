@@ -5,8 +5,8 @@ class Background extends Component {
   render() {
     return (
       <section style={sectionStyle}>
-        <h1 style={h1Style}>Background</h1>
         <article style={articleStyle}>
+          <h1>Background</h1>
           <p>
             I began my journey in esports shortly after the release of Halo 3
             with my introduction to MLG and Gamebattles. Up until November 2007
@@ -44,7 +44,11 @@ class Background extends Component {
           <p>-Dale 'Zarnerz' Holstein</p>
         </article>
         <aside style={articleStyle}>
-          <img src={banner} alt="the smash brothers documentary banner" />
+          <img
+            style={bannerStyle}
+            src={banner}
+            alt="the smash brothers documentary banner"
+          />
         </aside>
       </section>
     );
@@ -60,8 +64,8 @@ const articleStyle = {
   flex: "1"
 };
 
-const h1Style = {
-  flexBasis: "100%"
+const bannerStyle = {
+  width: "50%"
 };
 
 export default Background;
