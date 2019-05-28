@@ -1,6 +1,10 @@
 import React, { Component } from "react";
 
 class Parallax extends Component {
+  componentDidMount = props => {
+    console.log(props);
+  };
+
   render() {
     return (
       <section>
