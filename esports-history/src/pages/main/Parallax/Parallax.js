@@ -1,14 +1,19 @@
 import React, { Component } from "react";
 
 class Parallax extends Component {
-  componentDidMount = props => {
-    console.log(props);
-  };
+  constructor(props) {
+    super(props);
+    this.state = { backgroundImage: `../../../images/${props.image}` };
+  }
 
   render() {
+    const backgroundStyle = {
+      background: this.state.backgroundImage
+    };
+
     return (
       <section>
-        <article>{/* Insert Background Image for Parallax Section */}</article>
+        <article style={backgroundStyle} />
       </section>
     );
   }
