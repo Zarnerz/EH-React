@@ -8,12 +8,16 @@ class Parallax extends Component {
 
   render() {
     const backgroundStyle = {
-      background: this.state.backgroundImage
+      backgroundImage: this.state.backgroundImage,
+      backgroundRepeat: "no-repeat",
+      backgroundAttachment: "fixed",
+      backgroundSize: "100%",
+      backgroundPosition: "50%"
     };
 
     return (
-      <section>
-        <article style={backgroundStyle} />
+      <section style={backgroundStyle}>
+        <article />
       </section>
     );
   }
