@@ -8,7 +8,7 @@ class Parallax extends Component {
 
   render() {
     const backgroundStyle = {
-      backgroundImage: this.state.backgroundImage,
+      backgroundImage: `url("${this.state.backgroundImage}")`,
       backgroundRepeat: "no-repeat",
       backgroundAttachment: "fixed",
       backgroundSize: "100%",
@@ -17,10 +17,15 @@ class Parallax extends Component {
 
     return (
       <section style={backgroundStyle}>
-        <article />
+        <article style={articleStyle} />
       </section>
     );
   }
 }
+
+const articleStyle = {
+  paddingTop: "90px",
+  paddingBottom: "300px"
+};
 
 export default Parallax;
