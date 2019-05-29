@@ -31,3 +31,7 @@
     transform: rotate(360deg);
   }
 }
+
+.background-style {
+  background: url("./images/14 - MLG FB 2.jpg");
+}
