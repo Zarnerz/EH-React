@@ -1,0 +1,16 @@
+.fb-parallax-background {
+  background: url("../../../images/14 - MLG FB 2.jpg") no-repeat fixed 50%;
+  background-size: 100%;
+  text-align: center;
+}
+
+.dendi-parallax-background {
+  background: url("../../../images/8 - Dendi Yell.jpg") no-repeat fixed 50%;
+  background-size: 100%;
+  text-align: center;
+}
+
+.parallax-article {
+  padding-top: 90px;
+  padding-bottom: 300px;
+}

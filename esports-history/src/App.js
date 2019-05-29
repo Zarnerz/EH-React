@@ -16,7 +16,7 @@ class App extends Component {
         <Header />
         <Carousel />
         <About />
-        <Parallax image="14 - MLG FB 2.jpg" />
+        <Parallax class="fb-parallax-background" />
         <Background />
         <Podcast />
         <Footer />
