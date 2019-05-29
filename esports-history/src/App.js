@@ -18,6 +18,7 @@ class App extends Component {
         <About />
         <Parallax class="fb-parallax-background" />
         <Background />
+        <Parallax class="dendi-parallax-background" />
         <Podcast />
         <Footer />
       </div>
