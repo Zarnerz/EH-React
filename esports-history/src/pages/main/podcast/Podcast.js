@@ -18,7 +18,7 @@ class Podcast extends Component {
     return (
       <section>
         <h1>Podcast Episodes</h1>
-        <article>
+        <article style={cardContainerStyle}>
           <Card
             image={logo}
             alt="esports history logo"
@@ -42,5 +42,10 @@ class Podcast extends Component {
     );
   }
 }
+
+const cardContainerStyle = {
+  display: "flex",
+  justifyContent: "space-around"
+};
 
 export default Podcast;
