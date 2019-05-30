@@ -4,11 +4,13 @@ class Cards extends Component {
   render() {
     return (
       <section style={cardContainerStyle}>
-        <img
-          style={cardImageSource}
-          src={this.props.image}
-          alt={this.props.alt}
-        />
+        <article style={cardImageContainer}>
+          <img
+            style={cardImageSource}
+            src={this.props.image}
+            alt={this.props.alt}
+          />
+        </article>
         <h1>{this.props.title}</h1>
         <p>{this.props.blurb}</p>
       </section>
@@ -18,6 +20,10 @@ class Cards extends Component {
 
 const cardContainerStyle = {
   maxWidth: "90vw"
+};
+
+const cardImageContainer = {
+  height: "300px"
 };
 
 const cardImageSource = {
