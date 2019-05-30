@@ -3,7 +3,7 @@ import React, { Component } from "react";
 class Cards extends Component {
   render() {
     return (
-      <section>
+      <section style={cardContainerStyle}>
         <img
           style={cardImageSource}
           src={this.props.image}
@@ -16,8 +16,12 @@ class Cards extends Component {
   }
 }
 
+const cardContainerStyle = {
+  maxWidth: "90vw"
+};
+
 const cardImageSource = {
-  maxWidth: "300px"
+  maxWidth: "90%"
 };
 
 export default Cards;
