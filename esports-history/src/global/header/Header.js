@@ -4,7 +4,7 @@ import logo from "../../images/eSports History-logo-edit.png";
 class Header extends Component {
   render() {
     return (
-      <header>
+      <header style={headerStyle}>
         <nav style={navStyle}>
           <a style={navAnchorStyle} href="#home">
             <img src={logo} alt="esports history logo" style={navLogoStyle} />
@@ -31,6 +31,10 @@ class Header extends Component {
     );
   }
 }
+
+const headerStyle = {
+  maxWidth: "98vw"
+};
 
 const navStyle = {
   display: "flex"
