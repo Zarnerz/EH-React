@@ -32,7 +32,8 @@ class About extends Component {
 
 const sectionStyle = {
   display: "flex",
-  flexWrap: "wrap"
+  flexWrap: "wrap",
+  maxWidth: "90vw"
 };
 
 const articleStyle = {
