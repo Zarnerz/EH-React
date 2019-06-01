@@ -23,7 +23,10 @@ const cardContainerStyle = {
 };
 
 const cardImageContainer = {
-  height: "300px"
+  height: "300px",
+  display: "flex",
+  alignItems: "center",
+  justifyContent: "center"
 };
 
 const cardImageSource = {
