@@ -16,7 +16,7 @@ class Podcast extends Component {
 				video gaming. Another must see piece of content that gives any esports fan some perspective on how far we've come.`;
 
     return (
-      <section>
+      <section style={cardSectionStyle}>
         <h1>Podcast Episodes</h1>
         <article style={cardContainerStyle}>
           <Card
@@ -42,6 +42,10 @@ class Podcast extends Component {
     );
   }
 }
+
+const cardSectionStyle = {
+  padding: "2rem 0"
+};
 
 const cardContainerStyle = {
   display: "flex",
