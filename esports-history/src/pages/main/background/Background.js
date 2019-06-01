@@ -57,7 +57,10 @@ class Background extends Component {
 
 const sectionStyle = {
   display: "flex",
-  flexWrap: "wrap"
+  flexWrap: "wrap",
+  maxWidth: "90vw",
+  margin: "0 auto",
+  padding: "2rem"
 };
 
 const articleStyle = {
