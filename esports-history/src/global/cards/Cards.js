@@ -19,7 +19,8 @@ class Cards extends Component {
 }
 
 const cardContainerStyle = {
-  maxWidth: "90vw"
+  maxWidth: "90vw",
+  padding: "1rem"
 };
 
 const cardImageContainer = {
