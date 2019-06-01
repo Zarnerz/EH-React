@@ -43,7 +43,7 @@ class Background extends Component {
           </p>
           <p>-Dale 'Zarnerz' Holstein</p>
         </article>
-        <aside style={articleStyle}>
+        <aside style={asideStyle}>
           <img
             style={bannerStyle}
             src={banner}
@@ -67,8 +67,15 @@ const articleStyle = {
   flex: "1"
 };
 
+const asideStyle = {
+  flex: "1",
+  display: "flex",
+  alignItems: "center",
+  justifyContent: "center"
+};
+
 const bannerStyle = {
-  width: "50%"
+  maxWidth: "70%"
 };
 
 export default Background;
