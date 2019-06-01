@@ -46,7 +46,9 @@ class Podcast extends Component {
 const cardContainerStyle = {
   display: "flex",
   justifyContent: "space-around",
-  maxWidth: "90vw"
+  maxWidth: "90vw",
+  margin: "0 auto",
+  padding: "2rem"
 };
 
 export default Podcast;

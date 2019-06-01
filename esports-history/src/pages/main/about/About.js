@@ -34,7 +34,8 @@ const sectionStyle = {
   display: "flex",
   flexWrap: "wrap",
   maxWidth: "90vw",
-  margin: "0 auto"
+  margin: "0 auto",
+  padding: "2rem"
 };
 
 const articleStyle = {
