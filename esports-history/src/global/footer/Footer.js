@@ -26,7 +26,9 @@ class Footer extends Component {
 
 const footerStyle = {
   display: "flex",
-  maxWidth: "98vw"
+  maxWidth: "100vw",
+  backgroundColor: "#eee",
+  padding: "1rem"
 };
 
 const footerCopyrightStyle = {
