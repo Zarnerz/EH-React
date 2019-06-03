@@ -61,8 +61,7 @@ const navLogoStyle = {
 };
 
 const liStyle = {
-  display: "inline",
-  textDecoration: "none"
+  display: "inline"
 };
 
 export default Header;

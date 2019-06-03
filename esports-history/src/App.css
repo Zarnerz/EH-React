@@ -27,8 +27,17 @@
 }
 
 .App li {
-  font-family: Main;
+  font-family: Heading;
   font-size: 1.5rem;
+}
+
+.App li a {
+  text-decoration: none;
+  color: #333;
+}
+
+.App li a:hover {
+  text-decoration: underline;
 }
 
 .App p {
