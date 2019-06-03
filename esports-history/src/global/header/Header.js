@@ -33,7 +33,8 @@ class Header extends Component {
 }
 
 const headerStyle = {
-  maxWidth: "98vw"
+  maxWidth: "98vw",
+  padding: "1rem"
 };
 
 const navStyle = {
@@ -42,22 +43,21 @@ const navStyle = {
 
 const navAnchorStyle = {
   flex: "1",
-  textAlign: "left"
+  display: "flex",
+  alignItems: "center"
 };
 
 const navUlStyle = {
   flex: "1",
   display: "flex",
   justifyContent: "space-around",
-  alignSelf: "flex-end"
+  alignItems: "center"
 };
 
 const navLogoStyle = {
-  maxWidth: "175px",
+  maxWidth: "225px",
   height: "auto",
-  marginTop: "7px",
-  marginLeft: "30px",
-  marginBottom: "5px"
+  paddingBottom: "1rem"
 };
 
 const liStyle = {
