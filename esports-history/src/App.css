@@ -14,6 +14,10 @@
   font-family: Main;
   src: url(./fonts/Haike-condensedreg.ttf);
 }
+@font-face {
+  font-family: PrimaryBold;
+  src: url(./fonts/Haike-boldreg.ttf);
+}
 
 .App {
   text-align: center;
@@ -46,4 +50,8 @@
 
 .App p {
   text-align: justify;
+}
+
+footer p {
+  font-family: Main;
 }

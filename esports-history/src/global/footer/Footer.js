@@ -34,7 +34,8 @@ const footerStyle = {
 const footerCopyrightStyle = {
   flex: "1",
   textAlign: "left",
-  marginLeft: "2rem"
+  marginLeft: "2rem",
+  fontSize: "1.4rem"
 };
 
 const footerUlStyle = {
