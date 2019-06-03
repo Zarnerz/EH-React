@@ -47,7 +47,8 @@ const articleParagraphStyle = {
 };
 
 const h1Style = {
-  flexBasis: "100%"
+  flexBasis: "100%",
+  fontSize: "4rem"
 };
 
 export default About;

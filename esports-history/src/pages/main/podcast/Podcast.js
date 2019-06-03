@@ -17,7 +17,7 @@ class Podcast extends Component {
 
     return (
       <section style={cardSectionStyle}>
-        <h1>Podcast Episodes</h1>
+        <h1 style={cardSectionH1Style}>Podcast Episodes</h1>
         <article style={cardContainerStyle}>
           <Card
             image={logo}
@@ -45,6 +45,11 @@ class Podcast extends Component {
 
 const cardSectionStyle = {
   padding: "2rem 0"
+};
+
+const cardSectionH1Style = {
+  fontSize: "4rem",
+  marginBottom: "0"
 };
 
 const cardContainerStyle = {

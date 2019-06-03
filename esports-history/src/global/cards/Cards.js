@@ -11,7 +11,7 @@ class Cards extends Component {
             alt={this.props.alt}
           />
         </article>
-        <h1>{this.props.title}</h1>
+        <h3 style={cardH3Stle}>{this.props.title}</h3>
         <p>{this.props.blurb}</p>
       </section>
     );
@@ -32,6 +32,12 @@ const cardImageContainer = {
 
 const cardImageSource = {
   maxWidth: "90%"
+};
+
+const cardH3Stle = {
+  marginTop: "0",
+  fontSize: "2rem",
+  height: "100px"
 };
 
 export default Cards;
