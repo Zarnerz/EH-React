@@ -55,3 +55,13 @@
 footer p {
   font-family: Main;
 }
+
+@media only screen and (max-width: 800px) {
+  .cardContainerStyles {
+    flex-wrap: wrap;
+  }
+
+  .cardContainerStyles img {
+    max-height: 200px;
+  }
+}

@@ -18,7 +18,7 @@ class Podcast extends Component {
     return (
       <section style={cardSectionStyle}>
         <h1 style={cardSectionH1Style}>Podcast Episodes</h1>
-        <article style={cardContainerStyle}>
+        <article className="cardContainerStyles" style={cardContainerStyle}>
           <Card
             image={logo}
             alt="esports history logo"
