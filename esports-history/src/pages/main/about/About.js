@@ -5,7 +5,7 @@ class About extends Component {
     return (
       <section style={sectionStyle}>
         <h1 style={h1Style}>Welcome to Esports History</h1>
-        <article style={articleStyle}>
+        <article className="aboutArticleStyle" style={articleStyle}>
           <h1>Our Mission</h1>
           <p style={articleParagraphStyle}>
             The mission of Esports History is to create a centralized place for
@@ -13,7 +13,7 @@ class About extends Component {
             this history as possible and bring it to fans both new and old.
           </p>
         </article>
-        <article style={articleStyle}>
+        <article className="aboutArticleStyle" style={articleStyle}>
           <h1>Our Story</h1>
           <p style={articleParagraphStyle}>
             In 2019 Esports history was born after years of toying around with
@@ -39,7 +39,8 @@ const sectionStyle = {
 };
 
 const articleStyle = {
-  flex: "1"
+  flex: "1",
+  minWidth: "346px"
 };
 
 const articleParagraphStyle = {
