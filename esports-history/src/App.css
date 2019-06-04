@@ -64,4 +64,8 @@ footer p {
   .cardContainerStyles img {
     max-height: 200px;
   }
+
+  .cardContainerStyles * {
+    margin: 0;
+  }
 }
