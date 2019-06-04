@@ -43,7 +43,7 @@ class Background extends Component {
           </p>
           <p>-Dale 'Zarnerz' Holstein</p>
         </article>
-        <aside style={asideStyle}>
+        <aside className="backgroundAsideStyle" style={asideStyle}>
           <img
             style={bannerStyle}
             src={banner}
