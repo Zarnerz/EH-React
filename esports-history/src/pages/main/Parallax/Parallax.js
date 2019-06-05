@@ -9,8 +9,8 @@ class Parallax extends Component {
 
   render() {
     return (
-      <section class={this.state.class}>
-        <article class="parallax-article" />
+      <section className={this.state.class}>
+        <article className="parallax-article" />
       </section>
     );
   }
