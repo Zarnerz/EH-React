@@ -6,12 +6,12 @@ class Cards extends Component {
       <section style={cardContainerStyle}>
         <article style={cardImageContainer}>
           <img
-            style={cardImageSource}
+            style={cardImageStyle}
             src={this.props.image}
             alt={this.props.alt}
           />
         </article>
-        <h3 style={cardH3Stle}>{this.props.title}</h3>
+        <h3 style={cardH3Style}>{this.props.title}</h3>
         <p>{this.props.blurb}</p>
       </section>
     );
@@ -30,11 +30,11 @@ const cardImageContainer = {
   justifyContent: "center"
 };
 
-const cardImageSource = {
+const cardImageStyle = {
   maxWidth: "90%"
 };
 
-const cardH3Stle = {
+const cardH3Style = {
   marginTop: "0",
   fontSize: "2rem",
   height: "100px"
