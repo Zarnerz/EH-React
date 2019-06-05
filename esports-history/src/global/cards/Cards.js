@@ -31,11 +31,12 @@ const cardImageContainer = {
 };
 
 const cardImageStyle = {
-  maxWidth: "90%"
+  maxWidth: "90%",
+  maxHeight: "300px"
 };
 
 const cardH3Style = {
-  marginTop: "0",
+  marginTop: "1rem",
   fontSize: "2rem",
   height: "100px"
 };
