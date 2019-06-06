@@ -1,5 +1,6 @@
 import React, { Component } from "react";
 import logo from "../../images/eSports History-logo-edit.png";
+import hamburgerMenu from "../../images/hamburgerMenu.svg";
 
 class Header extends Component {
   render() {
