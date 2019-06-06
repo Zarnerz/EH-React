@@ -52,6 +52,10 @@
   text-align: justify;
 }
 
+.navMenuIcon {
+  display: none;
+}
+
 footer p {
   font-family: Main;
 }
@@ -59,8 +63,18 @@ footer p {
 @media only screen and (max-width: 800px) {
   /* HEADER MEDIA QUERIES */
 
-  nav ul {
+  .navMenu {
+    display: none !important;
     flex-direction: column;
+  }
+
+  .navMenuToggled {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .navMenuIcon {
+    display: block;
   }
 
   /* BACKGROUND MEDIA QUERIES */
