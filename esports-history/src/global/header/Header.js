@@ -21,13 +21,14 @@ class Header extends Component {
   };
 
   render() {
+    let navMenuClass = `nav-menu ${this.state.menuClass}`;
     return (
       <header style={headerStyle}>
         <nav style={navStyle}>
           <a style={navAnchorStyle} href="#home">
             <img src={logo} alt="esports history logo" style={navLogoStyle} />
           </a>
-          <ul style={navUlStyle}>
+          <ul className={navMenuClass} style={navUlStyle}>
             <li style={liStyle}>
               <a href="#home">Home</a>
             </li>
@@ -44,6 +45,12 @@ class Header extends Component {
               <a href="#contact">Contact</a>
             </li>
           </ul>
+          <img
+            className="navMenuIcon"
+            src={hamburgerMenu}
+            alt="responsive bar menu icon"
+            onClick={this.toggleMenuClass}
+          />
         </nav>
       </header>
     );
