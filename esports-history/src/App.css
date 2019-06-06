@@ -57,6 +57,12 @@ footer p {
 }
 
 @media only screen and (max-width: 800px) {
+  /* HEADER MEDIA QUERIES */
+
+  nav ul {
+    flex-direction: column;
+  }
+
   /* BACKGROUND MEDIA QUERIES */
 
   .backgroundAsideStyle {
