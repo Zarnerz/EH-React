@@ -66,6 +66,7 @@ footer p {
   .navMenu {
     display: none !important;
     flex-direction: column;
+    position: relative;
   }
 
   .navMenuToggled {
