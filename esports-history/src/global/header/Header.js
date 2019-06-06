@@ -3,6 +3,23 @@ import logo from "../../images/eSports History-logo-edit.png";
 import hamburgerMenu from "../../images/hamburgerMenu.svg";
 
 class Header extends Component {
+  constructor(props) {
+    super(props);
+    this.state = { menuClass: "" };
+  }
+
+  toggleMenuClass = () => {
+    if (this.state.menu_class === "") {
+      this.setState({
+        menuClass: "toggled"
+      });
+    } else {
+      this.setState({
+        menuClass: ""
+      });
+    }
+  };
+
   render() {
     return (
       <header style={headerStyle}>
