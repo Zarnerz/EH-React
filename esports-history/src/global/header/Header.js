@@ -9,9 +9,9 @@ class Header extends Component {
   }
 
   toggleMenuClass = () => {
-    if (this.state.menu_class === "") {
+    if (this.state.menuClass === "") {
       this.setState({
-        menuClass: "toggled"
+        menuClass: "Toggled"
       });
     } else {
       this.setState({
@@ -21,7 +21,7 @@ class Header extends Component {
   };
 
   render() {
-    let navMenuClass = `nav-menu ${this.state.menuClass}`;
+    let navMenuClass = `navMenu${this.state.menuClass}`;
     return (
       <header style={headerStyle}>
         <nav style={navStyle}>
