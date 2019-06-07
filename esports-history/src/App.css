@@ -56,9 +56,9 @@
   display: none;
 }
 
-footer p {
+/* footer p {
   font-family: Main;
-}
+} */
 
 @media only screen and (max-width: 800px) {
   /* HEADER MEDIA QUERIES */
