@@ -5,7 +5,7 @@
 }
 
 .dendi-parallax-background {
-  background: url("../../../images/8 - Dendi Yell.jpg") no-repeat fixed;
+  background: url("../../../images/8 - Dendi Yell.jpg") no-repeat fixed 50%;
   background-size: 100%;
   text-align: center;
 }
