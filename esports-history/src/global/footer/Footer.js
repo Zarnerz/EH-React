@@ -1,5 +1,5 @@
 import React, { Component } from "react";
-
+import { FaTwitter, FaInstagram, FaLinkedin, FaGithub } from "react-icons/fa";
 class Footer extends Component {
   render() {
     return (
