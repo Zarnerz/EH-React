@@ -7,16 +7,24 @@ class Footer extends Component {
         <p style={footerCopyrightStyle}>&copy; 2019 Esports History</p>
         <ul style={footerUlStyle}>
           <li style={liStyle}>
-            <FaGithub />
+            <a href="github.com">
+              <FaGithub />
+            </a>
           </li>
           <li style={liStyle}>
-            <FaLinkedin />
+            <a href="linkedin.com">
+              <FaLinkedin />
+            </a>
           </li>
           <li style={liStyle}>
-            <FaTwitter />
+            <a href="twitter.com">
+              <FaTwitter />
+            </a>
           </li>
           <li style={liStyle}>
-            <FaInstagram />
+            <a href="instagram.com">
+              <FaInstagram />
+            </a>
           </li>
         </ul>
       </footer>
