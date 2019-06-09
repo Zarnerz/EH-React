@@ -10,7 +10,7 @@ import carouselImg7 from "../../images/19 - WCG.jpg";
 import carouselImg8 from "../../images/2.jpg";
 
 export default () => (
-  <Carousel autoPlay>
+  <Carousel className="carousel" autoPlay>
     <div>
       <img src={carouselImg1} alt="trophy with stage and lights" />
       <p className="legend">Intel Extreme Masters</p>

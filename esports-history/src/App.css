@@ -61,6 +61,11 @@
   display: none;
 }
 
+.carousel img {
+  max-height: 90vh;
+  width: auto;
+}
+
 footer p {
   font-family: Footer;
 }
