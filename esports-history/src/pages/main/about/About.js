@@ -3,7 +3,7 @@ import React, { Component } from "react";
 class About extends Component {
   render() {
     return (
-      <section style={sectionStyle}>
+      <section id="about" style={sectionStyle}>
         <h1 style={h1Style}>Welcome to Esports History</h1>
         <article className="aboutArticleStyle" style={articleStyle}>
           <h1>Our Mission</h1>

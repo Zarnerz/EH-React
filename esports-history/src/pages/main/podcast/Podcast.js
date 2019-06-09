@@ -16,7 +16,7 @@ class Podcast extends Component {
 				video gaming. Another must see piece of content that gives any esports fan some perspective on how far we've come.`;
 
     return (
-      <section style={cardSectionStyle}>
+      <section id="podcast" style={cardSectionStyle}>
         <h1 style={cardSectionH1Style}>Podcast Episodes</h1>
         <article className="cardContainerStyles" style={cardContainerStyle}>
           <Card

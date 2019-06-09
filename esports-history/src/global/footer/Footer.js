@@ -3,7 +3,7 @@ import { FaTwitter, FaInstagram, FaLinkedin, FaGithub } from "react-icons/fa";
 class Footer extends Component {
   render() {
     return (
-      <footer style={footerStyle}>
+      <footer id="contact" style={footerStyle}>
         <p style={footerCopyrightStyle}>&copy; 2019 Esports History</p>
         <ul style={footerUlStyle}>
           <li style={liStyle}>

@@ -23,7 +23,7 @@ class Header extends Component {
   render() {
     let navMenuClass = `navMenu${this.state.menuClass}`;
     return (
-      <header style={headerStyle}>
+      <header id="home" style={headerStyle}>
         <nav style={navStyle}>
           <a style={navAnchorStyle} href="#home">
             <img src={logo} alt="esports history logo" style={navLogoStyle} />

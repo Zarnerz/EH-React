@@ -4,7 +4,7 @@ import banner from "../../../images/15 - Smash Bros.jpg";
 class Background extends Component {
   render() {
     return (
-      <section style={sectionStyle}>
+      <section id="background" style={sectionStyle}>
         <article style={articleStyle}>
           <h1>Background</h1>
           <p>
