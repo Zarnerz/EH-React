@@ -13,41 +13,41 @@ export default () => (
   <Carousel autoPlay>
     <div>
       <img src={carouselImg1} alt="trophy with stage and lights" />
-      <p className="legend">Legend 1</p>
+      <p className="legend">Intel Extreme Masters</p>
     </div>
     <div>
       <img src={carouselImg2} alt="life magazine article on arcades" />
-      <p className="legend">Legend 2</p>
+      <p className="legend">1982 Life Magazine</p>
     </div>
     <div>
       <img
         src={carouselImg3}
         alt="view from competitors back facing large crowd"
       />
-      <p className="legend">Legend 3</p>
+      <p className="legend">Counter-Strike: Global Offensive Main Stage</p>
     </div>
     <div>
       <img src={carouselImg4} alt="evo 2004 famous daigo parry" />
-      <p className="legend">Legend 4</p>
+      <p className="legend">Evo 2004 - Famous Daigo Parry</p>
     </div>
     <div>
       <img
         src={carouselImg5}
         alt="final boss holding national championship check"
       />
-      <p className="legend">Legend 5</p>
+      <p className="legend">MLG Vegas 2007 National Championship</p>
     </div>
     <div>
       <img src={carouselImg6} alt="starcraft 1 event in south korea" />
-      <p className="legend">Legend 6</p>
+      <p className="legend">Starcraft Event in South Korea</p>
     </div>
     <div>
       <img src={carouselImg7} alt="wcg banner with logo and multiple games" />
-      <p className="legend">Legend 7</p>
+      <p className="legend">World Championship Gaming</p>
     </div>
     <div>
       <img src={carouselImg8} alt="arena with main stage and big screen" />
-      <p className="legend">Legend 8</p>
+      <p className="legend">League of Legends Worlds 2015</p>
     </div>
   </Carousel>
 );
