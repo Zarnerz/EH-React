@@ -1,4 +1,4 @@
-import React, { Component } from "react";
+import React from "react";
 import { Carousel } from "react-responsive-carousel";
 import carouselImg1 from "../../images/1.jpg";
 import carouselImg2 from "../../images/6 - Life.jpg";
@@ -43,7 +43,7 @@ export default () => (
     </div>
     <div>
       <img src={carouselImg7} alt="wcg banner with logo and multiple games" />
-      <p className="legend">World Championship Gaming</p>
+      <p className="legend">World Cyber Games</p>
     </div>
     <div>
       <img src={carouselImg8} alt="arena with main stage and big screen" />
