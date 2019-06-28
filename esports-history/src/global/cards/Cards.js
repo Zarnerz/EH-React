@@ -1,4 +1,5 @@
 import React, { Component } from "react";
+import Player from "../player";
 
 class Cards extends Component {
   render() {
@@ -13,6 +14,7 @@ class Cards extends Component {
         </article>
         <h3 style={cardH3Style}>{this.props.title}</h3>
         <p>{this.props.blurb}</p>
+        <Player source={this.props.audioSource} />
       </section>
     );
   }
