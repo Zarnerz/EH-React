@@ -31,12 +31,14 @@ class Podcast extends Component {
             alt="final boss holding a check after winning the 2007 national championship in halo 2"
             title="Final Boss - A Halo Dynasty"
             blurb={finalBossBlurb}
+            audioSource=""
           />
           <Card
             image={twinGalaxiesImage}
             alt="twin galaxies international scoreboard with many world record holders in the foreground"
             title="Twin Galaxies - An Esports Origin Story"
             blurb={twinGalaxiesBlurb}
+            audioSource=""
           />
         </article>
       </section>
