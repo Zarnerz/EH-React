@@ -4,7 +4,6 @@ import Parallax from "./parallax";
 import About from "./about";
 import Background from "./background";
 import Podcast from "./podcast";
-import "react-responsive-carousel/lib/styles/carousel.min.css";
 
 class Main extends Component {
   render() {
