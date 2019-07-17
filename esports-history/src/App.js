@@ -8,6 +8,7 @@ import Footer from "./global/footer";
 // Pages
 import Main from "./pages/main";
 import Podcasts from "./pages/podcasts";
+import Blog from "./pages/blog";
 
 // Styles
 import "./App.css";
@@ -21,6 +22,7 @@ class App extends Component {
           <Header />
           <Route exact path="/" component={Main} />
           <Route path="/podcasts" component={Podcasts} />
+          <Route path="/blog" component={Blog} />
           <Footer />
         </div>
       </Router>
