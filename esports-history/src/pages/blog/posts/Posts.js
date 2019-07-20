@@ -17,7 +17,14 @@ class Posts extends Component {
     return (
       <section>
         {this.state.articles.map(article => (
-          <Article title={article.title} content={article.content} />
+          <table>
+            <tr>
+              <th>{article.title}</th>
+            </tr>
+            <tr>
+              <td>{article.content}</td>
+            </tr>
+          </table>
         ))}
       </section>
     );
