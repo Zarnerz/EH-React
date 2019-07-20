@@ -1,8 +1,18 @@
 import React, { Component } from "react";
 
-export class Article extends Component {
+class Article extends Component {
   render() {
-    return <div>Article</div>;
+    console.log(this.props);
+    return (
+      <table>
+        <tr>
+          <th>{this.props.title}</th>
+        </tr>
+        <tr>
+          <td>{this.props.content}</td>
+        </tr>
+      </table>
+    );
   }
 }
 

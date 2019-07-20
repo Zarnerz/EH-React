@@ -1,6 +1,7 @@
 import React, { Component } from "react";
+import Article from "../article";
 
-export class Posts extends Component {
+class Posts extends Component {
   constructor() {
     super();
     this.state = {
@@ -12,24 +13,14 @@ export class Posts extends Component {
     };
   }
 
-  renderArticles = () => {
-    this.state.articles.forEach(article => {
-      console.log(article);
-      return (
-        <table>
-          <tr>
-            <th>{article.title}</th>
-          </tr>
-          <tr>
-            <td>{article.content}</td>
-          </tr>
-        </table>
-      );
-    });
-  };
-
   render() {
-    return <main>{this.renderArticles}</main>;
+    return (
+      <section>
+        {this.state.articles.map(article => (
+          <Article title={article.title} content={article.content} />
+        ))}
+      </section>
+    );
   }
 }
 
