@@ -18,7 +18,9 @@ class Posts extends Component {
         {this.state.articles.map(article => (
           <table>
             <tr>
-              <th>{article.title}</th>
+              <th>
+                <a href="/blog/article">{article.title}</a>
+              </th>
             </tr>
             <tr>
               <td>{article.content}</td>
