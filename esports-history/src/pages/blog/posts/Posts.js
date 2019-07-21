@@ -19,7 +19,7 @@ class Posts extends Component {
           <table>
             <tr>
               <th>
-                <a href="/blog/article">{article.title}</a>
+                <a href="/article">{article.title}</a>
               </th>
             </tr>
             <tr>
