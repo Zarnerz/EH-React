@@ -1,0 +1,30 @@
+{
+  "files": {
+    "main.css": "/static/css/main.ec587069.chunk.css",
+    "main.js": "/static/js/main.be212870.chunk.js",
+    "main.js.map": "/static/js/main.be212870.chunk.js.map",
+    "runtime~main.js": "/static/js/runtime~main.a8a9905a.js",
+    "runtime~main.js.map": "/static/js/runtime~main.a8a9905a.js.map",
+    "static/css/2.3c1ddb0a.chunk.css": "/static/css/2.3c1ddb0a.chunk.css",
+    "static/js/2.2d141aab.chunk.js": "/static/js/2.2d141aab.chunk.js",
+    "static/js/2.2d141aab.chunk.js.map": "/static/js/2.2d141aab.chunk.js.map",
+    "index.html": "/index.html",
+    "precache-manifest.a4d5b5a24092b011079235c42be86505.js": "/precache-manifest.a4d5b5a24092b011079235c42be86505.js",
+    "service-worker.js": "/service-worker.js",
+    "static/css/2.3c1ddb0a.chunk.css.map": "/static/css/2.3c1ddb0a.chunk.css.map",
+    "static/css/main.ec587069.chunk.css.map": "/static/css/main.ec587069.chunk.css.map",
+    "static/media/1.jpg": "/static/media/1.e87a9a25.jpg",
+    "static/media/13 - MLG FB MONEY.jpg": "/static/media/13 - MLG FB MONEY.c88e1a5d.jpg",
+    "static/media/parallax.css": "/static/media/8 - Dendi Yell.c021f1cd.jpg",
+    "static/media/15 - Smash Bros.jpg": "/static/media/15 - Smash Bros.c70fed30.jpg",
+    "static/media/17 - SC1.jpg": "/static/media/17 - SC1.080891ab.jpg",
+    "static/media/19 - WCG.jpg": "/static/media/19 - WCG.525527a5.jpg",
+    "static/media/2.jpg": "/static/media/2.dae41187.jpg",
+    "static/media/22 - Evo 2004.jpg": "/static/media/22 - Evo 2004.2109e5c5.jpg",
+    "static/media/27 - Twin Galaxies.jpg": "/static/media/27 - Twin Galaxies.52499fa1.jpg",
+    "static/media/3.jpg": "/static/media/3.8b74ae7d.jpg",
+    "static/media/6 - Life.jpg": "/static/media/6 - Life.c2086848.jpg",
+    "static/media/App.css": "/static/media/Sabo-Filled.92339ee0.otf",
+    "static/media/hamburgerMenu.svg": "/static/media/hamburgerMenu.7116b314.svg"
+  }
+}
